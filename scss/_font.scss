@@ -1,0 +1,21 @@
+//fonts google
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+$mainFont:'Roboto' , sans-serif;
+$secondaryFont: 'Monserrat' , sans-serif;
+
+//sizes
+$textMd:2em;
+$textLg:2.5em;
+$textSm:1.5em;
+
+//weights
+$textBold:600;
+$textRegular:500;
+$textThin:400;
+
+
+//clases para textos
+ .textBold{
+    font-weight: $textBold;
+ }

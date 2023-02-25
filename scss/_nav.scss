@@ -1,15 +1,29 @@
 //nesting - anidacion
+
 #botonera{
-    img{
+    background-color: $secondary;
+    nav{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* padding */
+padding: 8px 20px;
+/* display flex*/
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+img{
     width: 150px;}
-    
+
     ul li  a{
-        color: $mainColor;
-        font-size: 1.8em;
-        font-family: 'Roboto', sans-serif;
-    }
-    ul li a:hover{
+    color: $mainColor;
+    font-size: $textMd;
+    font-weight:$textRegular;
+    font-family: $mainFont;
+}
+ul li a:hover{
     color: black;
-}
-}
-    
+}}

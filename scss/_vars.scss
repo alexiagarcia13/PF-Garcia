@@ -1,22 +1,21 @@
 //variables globales
 
+
 //variables colores
 $mainColor:#694736;
 $secondary:rgb(225, 227, 173);
 $keyColor:#38251c;
 $secondKeyColor:#9ffffd;
 
-
-
-//sizes
-$textSm:1.5em;
-$textMd:1.8em;
-$textXl:2.5em;
-$textXll:3em;
-
 //width
 $w-30:30%;
 $w-60:60%;
 
-//fonts
-$mainFont:'Roboto', sans-serif;
+//posiciones de imagenes
+img.izquierda {
+    float: left;
+  }
+  
+  img.derecha {
+    float: right;
+  }

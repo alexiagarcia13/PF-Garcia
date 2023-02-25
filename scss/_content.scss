@@ -1,0 +1,93 @@
+.bg-beige{
+    background-color: $secondary
+}
+
+.bg-brown{background-color: $mainColor
+}
+h1{
+    color: $secondary;
+    font-weight: $textBold;
+    font-size: $textLg;
+    font-family: $mainFont;
+}
+h2{
+    color: $secondary;
+    font-weight: $textBold;
+    font-size: $textLg;
+    font-family: $mainFont;
+}
+h3{
+    color: $mainColor;
+    font-weight: $textBold;
+    font-size: $textLg;
+    font-family:$mainFont;
+}
+p{
+    color: $mainColor;
+    font-weight: $textRegular;
+    font-size: $textSm;
+    line-height: 24px;
+}
+
+p {
+    background-color:$secondary;
+    color:$mainColor;
+    }
+    p.box1 {
+    width: 800px;
+    margin:10px 50px;
+    padding:20px;
+    font-size:$mainFont;
+    background-color:$secondary;
+    color:$mainColor;
+    }
+    
+
+#contact{
+    h2{
+        font-family: $mainFont;
+        font-size: $textLg;
+        font-weight: $textBold;
+        color: $secondary;
+        text-align:center;
+         text-decoration: none;
+           }
+    *{box-sizing:border-box;}
+form{
+	width:350px;
+	padding:20px;
+	border-radius:15px;
+	margin: 0 auto;
+	background-color:$secondary;
+}
+form label{
+	width:85px;
+	font-weight:$textBold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]
+form input[type="number"]
+{
+	width:200px;
+	padding:3px 10px;
+	border:1px solid $mainColor;
+	border-radius:3px;
+	background-color:white;
+	margin:8px 0;
+	display:inline-block;}
+    
+    textarea{
+        width:100%;
+        height:100px;
+        border:1px solid $mainColor;
+        border-radius:3px;
+        background-color:white;			
+        margin:8px 0;
+        /*resize: vertical | horizontal | none | both*/
+        resize:none;
+        display:block;
+    }
+}
+

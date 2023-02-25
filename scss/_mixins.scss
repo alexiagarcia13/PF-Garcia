@@ -1,0 +1,20 @@
+//extends
+.btn-gral{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: linear-gradient(to top, #38251c, rgb(225, 227, 173));
+}
+
+//mixins
+@mixin textos($size,$line,$color){
+    font-size: size; //variable local
+    line-height: $line; //variable local 
+    color: $color;//variable local
+    font-family: $mainFont;//variable global
+
+}

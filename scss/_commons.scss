@@ -13,12 +13,10 @@ h1,h2,h3{
 } 
 
 h1{
-    font-size: $textXll;
+    font-size: $textLg;
     color: $keyColor;
     margin: 30px auto;
-    font-weight: $textBold;
+    font-weight:400;
 }
 
-div{
-    width: $w-60;
-}
+

@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+img.izquierda {
+  float: left;
+}
+
+img.derecha {
+  float: right;
+}
+
+.textBold {
+  font-weight: 600;
+}
+
+.btn-gral {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  padding: 4px 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: linear-gradient(to top, #38251c, rgb(225, 227, 173));
+}
+
+#botonera {
+  background-color: rgb(225, 227, 173);
+}
+#botonera nav {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* padding */
+  padding: 8px 20px;
+  /* display flex*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#botonera img {
+  width: 150px;
+}
+#botonera ul li a {
+  color: #694736;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+#botonera ul li a:hover {
+  color: black;
+}
+
+#productos h1, #productos h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #694736;
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0;
+}
+#productos .galeria {
+  margin: 20px;
+  /****display flex****/
+  display: flex;
+  justify-content: space-around;
+}
+#productos .galeria figure {
+  text-align: center;
+  margin: 0 20px;
+}
+#productos .galeria figure img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}
+#productos .galeria figure figcaption {
+  font-size: 1.5em;
+  color: #694736;
+  padding: 10px 0;
+  background-color: white;
+}
+#productos .galeria p.price {
+  color: #694736;
+  padding-bottom: 10px;
+  background-color: white;
+}
+#productos .destacados article {
+  background-color: rgb(225, 227, 173);
+  /****display flex****/
+  display: flex;
+  align-items: center;
+}
+#productos .destacados article p {
+  color: gray;
+  font-size: 1.5em;
+  line-height: 24px;
+  margin: 20px auto;
+  padding: 50px;
+}
+#productos .destacados article h3 {
+  color: beige;
+  font-size: 2.5em;
+  padding-left: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/backgrounds/cuero\ 4.jpg);
+  background-attachment: fixed;
+  overflow: auto;
+}
+
+h1, h2, h3 {
+  color: #38251c;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #38251c;
+  margin: 30px auto;
+  font-weight: 400;
+}
+
+.bg-beige {
+  background-color: rgb(225, 227, 173);
+}
+
+.bg-brown {
+  background-color: #694736;
+}
+
+h1 {
+  color: rgb(225, 227, 173);
+  font-weight: 600;
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: rgb(225, 227, 173);
+  font-weight: 600;
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  color: #694736;
+  font-weight: 600;
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: #694736;
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 24px;
+}
+
+p {
+  background-color: rgb(225, 227, 173);
+  color: #694736;
+}
+
+p.box1 {
+  width: 800px;
+  margin: 10px 50px;
+  padding: 20px;
+  font-size: "Roboto", sans-serif;
+  background-color: rgb(225, 227, 173);
+  color: #694736;
+}
+
+#contact h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: rgb(225, 227, 173);
+  text-align: center;
+  text-decoration: none;
+}
+#contact * {
+  box-sizing: border-box;
+}
+#contact form {
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 0 auto;
+  background-color: rgb(225, 227, 173);
+}
+#contact form label {
+  width: 85px;
+  font-weight: 600;
+  display: inline-block;
+}
+#contact form input[type=text],
+#contact form input[type=email] form input[type=number] {
+  width: 200px;
+  padding: 3px 10px;
+  border: 1px solid #694736;
+  border-radius: 3px;
+  background-color: white;
+  margin: 8px 0;
+  display: inline-block;
+}
+#contact textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #694736;
+  border-radius: 3px;
+  background-color: white;
+  margin: 8px 0;
+  /*resize: vertical | horizontal | none | both*/
+  resize: none;
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */
