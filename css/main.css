@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/backgrounds/cuero\ 4.jpg);
+  background-attachment: fixed;
+  overflow: auto;
+}
+
+h1, h2, h3 {
+  color: #38251c;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  color: #38251c;
+  margin: 30px auto;
+  font-weight: 600;
+}
+
+div {
+  width: 60%;
+}
+
+#botonera {
+  background-color:rgb(225, 227, 173);
+}
+#botonera img {
+  width: 150px;
+}
+#botonera ul li a {
+  color: #694736;
+  font-size: 1.8em;
+  font-family: "Roboto", sans-serif;
+}
+#botonera ul li a:hover {
+  color: black;
+}
+
+#productos h1, #productos h2 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #694736;
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0;
+}
+#productos .galeria {
+  margin: 20px;
+  /****display flex****/
+  display: flex;
+  justify-content: space-around;
+}
+#productos .galeria figure {
+  text-align: center;
+  margin: 0 20px;
+}
+#productos .galeria figure img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}
+#productos .galeria figure figcaption {
+  font-size: 1em;
+  color: #694736;
+  padding: 10px 0;
+  background-color: white;
+}
+#productos .galeria p.price {
+  color: #694736;
+  padding-bottom: 10px;
+  background-color: white;
+}
+#productos .destacados article {
+  background-color: #529292;
+  /****display flex****/
+  display: flex;
+  align-items: center;
+}
+#productos .destacados article p {
+  color: gray;
+  font-size: 1em;
+  line-height: 24px;
+  margin: 20px auto;
+  padding: 50px;
+}
+#productos .destacados article h3 {
+  color: beige;
+  font-size: 2em;
+  padding-left: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
