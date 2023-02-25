@@ -1,0 +1,24 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image:url(../img/backgrounds/cuero\ 4.jpg);
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+h1,h2,h3{
+    color: $keyColor;
+    font-family: $mainFont;
+} 
+
+h1{
+    font-size: $textXll;
+    color: $keyColor;
+    margin: 30px auto;
+    font-weight: $textBold;
+}
+
+div{
+    width: $w-60;
+}

@@ -1,0 +1,62 @@
+//productos
+#productos{
+    h1,h2{
+        text-transform: uppercase;
+        font-size: $textMd;
+        text-align: center;
+        padding: 20px 0;
+        background-color: $mainColor;
+        font-family: $mainFont;
+        margin: 20px 0;
+    }
+    .galeria{
+        margin: 20px;
+        /****display flex****/
+        display: flex;
+        justify-content: space-around;
+        figure{
+            text-align: center;
+            margin:0 20px;
+            img{
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                width: 100%;
+            }
+            figcaption{
+                font-size: $textSm;
+                color: $mainColor;
+                padding: 10px 0;
+                background-color: white;
+            }
+        }
+        p.price{
+            color: $mainColor;
+            padding-bottom: 10px;
+            background-color: white;
+
+        }
+    }
+    .destacados{
+        article{
+            background-color: $secondary;
+            /****display flex****/
+            display:flex;
+            align-items: center;
+            p{
+                color: gray;
+                font-size: $textSm;
+                line-height: 24px;
+                margin: 20px auto;
+                padding: 50px;
+            }
+             h3{
+                color: beige;
+                font-size: $textXl;
+                padding-left: 50px;
+                font-family: $mainFont;
+            }
+        }
+    }
+}
+
+

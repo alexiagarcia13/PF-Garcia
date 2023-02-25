@@ -1,0 +1,15 @@
+//nesting - anidacion
+#botonera{
+    img{
+    width: 150px;}
+    
+    ul li  a{
+        color: $mainColor;
+        font-size: 1.8em;
+        font-family: 'Roboto', sans-serif;
+    }
+    ul li a:hover{
+    color: black;
+}
+}
+    
