@@ -7,6 +7,10 @@ img.derecha {
   float: right;
 }
 
+.card-personalizada {
+  width: 300px;
+}
+
 .textBold {
   font-weight: 600;
 }

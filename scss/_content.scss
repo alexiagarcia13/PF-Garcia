@@ -1,49 +1,5 @@
-.bg-beige{
-    background-color: $secondary
-}
 
-.bg-brown{background-color: $mainColor
-}
-h1{
-    color: $secondary;
-    font-weight: $textBold;
-    font-size: $textLg;
-    font-family: $mainFont;
-}
-h2{
-    color: $secondary;
-    font-weight: $textBold;
-    font-size: $textLg;
-    font-family: $mainFont;
-}
-h3{
-    color: $mainColor;
-    font-weight: $textBold;
-    font-size: $textLg;
-    font-family:$mainFont;
-}
-p{
-    color: $mainColor;
-    font-weight: $textRegular;
-    font-size: $textSm;
-    line-height: 24px;
-}
-
-p {
-    background-color:$secondary;
-    color:$mainColor;
-    }
-    p.box1 {
-    width: 800px;
-    margin:10px 50px;
-    padding:20px;
-    font-size:$mainFont;
-    background-color:$secondary;
-    color:$mainColor;
-    }
-    
-
-#contact{
+    #contact{
     h2{
         font-family: $mainFont;
         font-size: $textLg;
