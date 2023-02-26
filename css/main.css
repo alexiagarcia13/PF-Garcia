@@ -218,6 +218,12 @@ head .sticky li p a:hover {
   text-decoration: underline;
 }
 
+error404 {
+  background-image: url(../img/backgrounds/cuero\ 4.jpg);
+  background-attachment: fixed;
+  overflow: auto;
+}
+
 #contact h2 {
   font-family: "Roboto", sans-serif;
   font-size: 2.5em;
