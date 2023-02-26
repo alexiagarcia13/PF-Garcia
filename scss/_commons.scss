@@ -7,18 +7,6 @@ body{
     overflow: auto;
 }
 
-h1,h2,h3{
-    color: $keyColor;
-    font-family: $mainFont;
-} 
-
-h1{
-    font-size: $textLg;
-    color: $keyColor;
-    margin: 30px auto;
-    font-weight:400;
-}
-
 .bg-beige{
     background-color: $secondary
 }
@@ -30,12 +18,14 @@ h1{
     font-weight: $textBold;
     font-size: $textLg;
     font-family: $mainFont;
+    text-align:center;
 }
 h2{
     color: $secondary;
     font-weight: $textBold;
     font-size: $textLg;
     font-family: $mainFont;
+    text-align:center;
 }
 h3{
     color: $mainColor;
@@ -48,6 +38,7 @@ p{
     font-weight: $textRegular;
     font-size: $textSm;
     line-height: 24px;
+    text-align:center;
 }
 
 p {
@@ -62,3 +53,4 @@ p {
     background-color:$secondary;
     color:$mainColor;
     }
+    
