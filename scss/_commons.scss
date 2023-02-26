@@ -53,7 +53,9 @@ p {
     background-color:$secondary;
     color:$mainColor;
     }
-    .sticky-container{
+    
+    head{
+        .sticky-container{
         padding:0px;
         margin:0px;
         position:fixed;
@@ -97,3 +99,5 @@ p {
     .sticky li p a:hover{
         text-decoration:underline;
     }
+    
+}
