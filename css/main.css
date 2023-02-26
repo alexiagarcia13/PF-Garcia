@@ -218,7 +218,7 @@ head .sticky li p a:hover {
   text-decoration: underline;
 }
 
-error404 {
+.error404 {
   background-image: url(../img/backgrounds/cuero\ 4.jpg);
   background-attachment: fixed;
   overflow: auto;
