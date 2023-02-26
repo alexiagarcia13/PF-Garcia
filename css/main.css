@@ -173,7 +173,7 @@ p.box1 {
   color: #694736;
 }
 
-head .sticky-container {
+.sticky-container {
   padding: 0px;
   margin: 0px;
   position: fixed;
@@ -182,7 +182,8 @@ head .sticky-container {
   width: 210px;
   z-index: 1100;
 }
-head .sticky li {
+
+.sticky li {
   list-style-type: none;
   background-color: #694736;
   color: rgb(225, 227, 173);
@@ -195,26 +196,30 @@ head .sticky li {
   transition: all 0.25s ease-in-out;
   cursor: pointer;
 }
-head .sticky li:hover {
-  margin-left: -120px;
+
+.sticky li:hover {
+  margin-left: -115px;
 }
-head .sticky li img {
+
+.sticky li img {
   float: left;
   margin: 5px 4px;
-  margin: right 6px;
+  margin-right: 5px;
 }
-head .sticky li p {
+
+.sticky li p {
   padding-top: 5px;
   margin: 0px;
   line-height: 16px;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-size: 11px;
 }
-head .sticky li p a {
+
+.sticky li p a {
   text-decoration: none;
-  color: #694736;
+  color: #020202;
 }
-head .sticky li p a:hover {
+
+.sticky li p a:hover {
   text-decoration: underline;
 }
 
